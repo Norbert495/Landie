@@ -1,0 +1,205 @@
+.heroMain{
+    width: 100%;
+    margin: 0 auto;
+    height: 1161px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.Heading{
+    width: 539px;
+    margin-left: 91px;
+    height: 421px;
+    margin-top: -200px;
+}
+
+.Heading h1{
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #454E54;
+    margin-top: -1.5rem;
+
+    width: 539px;
+    z-index: 1;
+    letter-spacing: 1px;
+
+}
+.Heading p{
+    position: relative;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 539px;
+    height: 164px;
+    z-index: 1;
+    color: #505F98;
+}
+br{
+    content: '.';
+    display: block;
+    width: 100%;
+    height: 18px;
+}
+.Heading button{
+    margin-top: 69px;
+    width: 189px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+    z-index: 1;
+}
+.btnKit{
+
+    background: #111B47;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+.btnKit:hover{
+    background: rgba(17, 27, 71, 0.85);
+}
+.btnLer{
+    color: #454E54;
+    background: none;
+    margin-left: 15px;
+    border: 2px solid #454E54;
+    border-radius: 2px;
+    margin-top: 69px;
+    cursor: pointer;
+}
+.btnLer:hover{
+    border: 2px solid #737b83;
+    color: #737b83;
+}
+
+.heroMain svg{
+    position: absolute;
+    top: -67px;
+    left: 182px;
+    width: 100%;
+    max-height: 100%;
+
+}
+
+@media (min-width: 1520px) {
+
+    .heroMain svg{
+        left: 12rem;
+        width: 100%;
+    }
+    .Heading{
+        margin-left: 192px;
+    }
+}
+@media (max-width: 1040px) {
+
+    .heroMain{
+        height: 100%;
+        margin-top: 5rem;
+    }
+    .Heading{
+        margin-top: 1rem;
+    }
+    .Heading h1{
+        font-size: 42px;
+    }
+    .heroMain svg{
+        left: 18rem;
+    }
+}
+@media (max-width: 640px) {
+    .heroMain{
+        width: 100%;
+        margin: 6rem auto;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .Heading{
+        margin: 0 auto;
+    }
+    .Heading h1{
+        font-size: 38px;
+        line-height: 55px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .heroMain svg{
+        position: absolute;
+        top: 1%;
+        left: 25rem;
+        width: 100%;
+        max-height: 100%;
+
+    }
+    .Heading p{
+        width: 90%;
+        height: auto;
+        margin: 1.5rem auto 0 auto;
+        font-size: 16px;
+    }
+    .Heading button{
+        margin-top: 3rem;
+    }
+    .btnKit{
+        display: block;
+        margin: 0 auto;
+    }
+    .btnLer{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 420px) {
+    .Heading h1{
+        font-size: 30px;
+        line-height: 42px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .heroMain svg{
+        position: absolute;
+        top: 1%;
+        left: 17rem;
+        width: 100%;
+        max-height: 100%;
+
+    }
+    .heroMain{
+        width: 100%;
+        margin: 6rem auto;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .Heading{
+        width: 100%;
+        height: 100%;
+        margin-left: 39px;
+    }
+    .Heading p{
+        width: 90%;
+        height: 100%;
+        margin: 1.5rem auto 0 auto;
+        font-size: 16px;
+    }
+    .Heading button{
+        margin-top: 3rem;
+    }
+    .btnKit{
+        display: block;
+        margin: 0 auto;
+    }
+    .btnLer{
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}

@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 809px;
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.contentPrice{
+    text-align: center;
+    width: 600px;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentPrice h3{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #454E54;
+}
+.contentPrice p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5D6970;
+
+}
+.price{
+    margin-top: 35.82px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #222F65;
+}
+.priceText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #37447E;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.btn{
+    width: 189px;
+    height: 32px;
+    background: #111B47;
+    border-radius: 2px;
+    color: white;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgba(17, 27, 71, 0.85);
+}
+@media (max-width: 1350px) {
+    .background{
+        height: 140%;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .contentPrice{
+        width: 100%;
+        padding: 2rem;
+    }
+    .contentPrice h3{
+        font-size: 32px;
+    }
+    .contentPrice p{
+        font-size: 14px;
+    }
+    .contentPrice h2{
+        font-size: 42px;
+    }
+}
+

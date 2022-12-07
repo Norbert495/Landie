@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*, body, html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Roboto;
+
+
+}
+body, html{
+    overflow-x: hidden;
+}

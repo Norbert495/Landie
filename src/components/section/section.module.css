@@ -1,0 +1,126 @@
+.container{
+    height: 742px;
+    margin: 1rem 165px 0 194px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 540px;
+    margin-top: 51px;
+
+}
+.text h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #454E54;
+}
+.text p{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5D6970;
+    height: 140px;
+}
+.illustation{
+    width: 540px;
+    height: 524.31px;
+    margin-left: 30px;
+}
+br{
+    content: '.';
+    display: block;
+    width: 100%;
+    height: 16px;
+}
+.contentBox{
+    display: flex;
+    margin-top: 80px;
+}
+.contentBox div{
+    width: 255px;
+    height: 138px;
+}
+.contentBox div:first-child{
+    margin-right: 30px;
+}
+.contentBox div h4{
+    margin-top: 14px;
+}
+.contentBox div p{
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.contentBox div svg{
+    width: 36px;
+    height: 36px;
+}
+@media (max-width: 1350px) {
+    .container{
+        margin: 1rem 80px 4rem 100px;
+        height: 100%;
+    }
+}
+@media (max-width: 1040px) {
+    .container{
+        position: relative;
+    }
+    .illustation{
+        position: absolute;
+        right: -480px;
+        top: 40px
+    }
+    .text{
+        margin-top: 5rem;
+
+    }
+
+}
+@media (max-width: 640px) {
+    .text{
+        width: 100%;
+    }
+    .container{
+        width: auto;
+        margin: 6rem 2rem;
+    }
+}
+@media (max-width: 420px) {
+    .contentBox{
+        margin-top: 8rem;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contentBox div:first-child{
+        margin-right: 0;
+    }
+    .contentBox div{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+    .contentBox div svg{
+        display: flex;
+        align-self: center;
+        margin-bottom: 0.8rem;
+    }
+    .contentBox h4{
+        margin-bottom: 0.5rem;
+    }
+    .contentBox h4, .contentBox p{
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .contentBox p {
+    height: 100%;
+    }
+    .contentBox div:last-child{
+        margin-top: 2rem;
+    }
+
+}

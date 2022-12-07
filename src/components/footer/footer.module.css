@@ -1,0 +1,133 @@
+.footer{
+    margin-top: -11.46px;
+    width: 100%;
+    height: 210px;
+    background: #E7ECFF;
+}
+.topFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 164.71px 0 165.29px;
+
+}
+.topFooter p{
+    margin-top: 67.61px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #939EA4;
+}
+.topFooter button{
+    margin-top: 66.61px;
+    width: 109px;
+    height: 26px;
+    background: #111B47;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+}
+.topFooter button:hover{
+    background: rgba(17, 27, 71, 0.85);
+}
+.logo{
+    margin-left: -22px;
+    margin-top: 60.61px;
+    color: #37447E;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+
+}
+
+.bottomFooter{
+    margin: 47px 164.71px 0 165.29px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CDD1D4;
+}
+.navFooter{
+    margin-top: 20px;
+    list-style: none;
+    gap: 60px
+}
+.navFooter li{
+
+    color: #929ECC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socialContainer{
+    margin-top: 24px;
+    gap: 30px
+}
+.socialContainer li{
+    cursor: pointer;
+}
+.socialContainer li svg path:hover {
+    fill: #111B47;
+}
+
+@media (max-width: 850px){
+    .topFooter{
+        padding: 0 60px 0 60px;
+    }
+    .bottomFooter{
+        margin: 47px 60px 0 60px;
+    }
+    .footer{
+        height: 100%;
+    }
+    .navFooter{
+        margin-bottom: 20px;
+    }
+    .socialContainer{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 640px) {
+    .bottomFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomFooter div{
+        margin-bottom: 1rem;
+    }
+    .navFooter{
+        margin-bottom: 0;
+    }
+    .socialContainer{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 640px) {
+    .topFooter{
+        padding: 0 20px 0 20px;
+    }
+}
+@media (max-width: 420px) {
+    .topFooter{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .logo{
+        margin: 2rem 0 1rem 0;
+    }
+    .topFooter button{
+        margin-top: 1rem;
+    }
+    .socialContainer{
+        margin-top: 24px;
+        gap: 20px
+    }
+    .navFooter{
+        gap: 40px;
+    }
+
+}
