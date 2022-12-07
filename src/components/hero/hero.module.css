@@ -160,7 +160,7 @@ br{
         font-size: 30px;
         line-height: 42px;
         width: 90%;
-        margin: 0 auto;
+        margin: 1rem auto 0 auto;
     }
     .heroMain svg{
         position: absolute;
